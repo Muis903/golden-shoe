@@ -1,0 +1,32 @@
+{
+    "product": {
+        "id": 4,
+        "name": "Nike Air Zoom Pegasus 37",
+        "href": "#",
+        "price": "£89.97",
+        "rating": 4.6,
+        "reviewCount": 5459,
+        "officialSource": "https://www.nike.com/t/air-zoom-pegasus-37-mens-road-running-shoes-KLvDcj/BQ9646-006",
+        "colors": [
+            {
+                "name": "gray",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1fbc9d9d-0a5a-419f-867c-1bb4c7179ab9/air-zoom-pegasus-37-mens-road-running-shoes-KLvDcj.png",
+                "imageAlt": "Nike Air Zoom Pegasus 37 Men's Road Running Shoes",
+                "class": "bg-gray-400",
+                "selectedClass": "ring-gray-600"
+            }
+        ],
+        "sizes": [
+            { "name": "39.5", "inStock": true },
+            { "name": "40", "inStock": true },
+            { "name": "40.5", "inStock": false },
+            { "name": "41", "inStock": true },
+            { "name": "41.5", "inStock": true },
+            { "name": "42", "inStock": true },
+            { "name": "42.5", "inStock": false },
+            { "name": "43", "inStock": true },
+            { "name": "43.5", "inStock": true },
+            { "name": "44", "inStock": false }
+        ]
+    }
+}

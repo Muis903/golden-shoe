@@ -1,0 +1,46 @@
+{
+    "product": {
+        "id": 1,
+        "name": "Nike Jordan Stay Loyal",
+        "href": "#",
+        "price": "£110",
+        "rating": 4.2,
+        "reviewCount": 1201,
+        "officialSource": "https://www.nike.com/t/jordan-stay-loyal-shoes-tdsMgH/DB2884-106",
+        "colors": [
+            {
+                "name": "gray",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/28110d6d-9554-4cdd-aab7-37a1f8243a27/jordan-stay-loyal-shoes-tdsMgH.png",
+                "imageAlt": "Jordan Stay Loyal Shoes",
+                "class": "bg-gray-200",
+                "selectedClass": "ring-gray-400"
+            },
+            {
+                "name": "red",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/27bd36f0-4f18-4407-ade9-38f539712a82/jordan-stay-loyal-shoes-tdsMgH.png",
+                "imageAlt": "Jordan Stay Loyal Shoes",
+                "class": "bg-red-400",
+                "selectedClass": "ring-red-600"
+            },
+            {
+                "name": "black",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/52024c6a-a04c-4a6c-a32a-4b5c1548334e/jordan-stay-loyal-shoes-tdsMgH.png",
+                "imageAlt": "Jordan Stay Loyal Shoes",
+                "class": "bg-gray-900",
+                "selectedClass": "ring-gray-900"
+            }
+        ],
+        "sizes": [
+            { "name": "39.5", "inStock": true },
+            { "name": "40", "inStock": true },
+            { "name": "40.5", "inStock": true },
+            { "name": "41", "inStock": false },
+            { "name": "41.5", "inStock": true },
+            { "name": "42", "inStock": true },
+            { "name": "42.5", "inStock": false },
+            { "name": "43", "inStock": true },
+            { "name": "43.5", "inStock": true },
+            { "name": "44", "inStock": true }
+        ]
+    }
+}

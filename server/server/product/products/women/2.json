@@ -1,0 +1,46 @@
+{
+    "product": {
+        "id": 2,
+        "name": "Jordan ADG 4",
+        "href": "#",
+        "price": "£185",
+        "rating": 4.1,
+        "reviewCount": 1319,
+        "officialSource": "https://www.nike.com/t/jordan-adg-4-mens-golf-shoes-zw1ZGK/DM0103-105",
+        "colors": [
+            {
+                "name": "gray",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2be5599d-45a6-4b5a-8ab0-401c9e632e51/jordan-adg-4-mens-golf-shoes-zw1ZGK.png",
+                "imageAlt": "Jordan ADG 4 Men's Gold Shoes",
+                "class": "bg-gray-200",
+                "selectedClass": "ring-gray-400"
+            },
+            {
+                "name": "white",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/65cd4a9e-183e-4c2f-a914-a2a47149286d/jordan-adg-4-mens-golf-shoes-zw1ZGK.png",
+                "imageAlt": "Jordan ADG 4 Men's Gold Shoes",
+                "class": "bg-white",
+                "selectedClass": "ring-gray-200"
+            },
+            {
+                "name": "black",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/15acd464-81d6-48bf-9dc8-9e02338a356a/jordan-adg-4-mens-golf-shoes-zw1ZGK.png",
+                "imageAlt": "Jordan ADG 4 Men's Gold Shoes",
+                "class": "bg-gray-900",
+                "selectedClass": "ring-gray-900"
+            }
+        ],
+        "sizes": [
+            { "name": "39.5", "inStock": true },
+            { "name": "40", "inStock": false },
+            { "name": "40.5", "inStock": true },
+            { "name": "41", "inStock": false },
+            { "name": "41.5", "inStock": true },
+            { "name": "42", "inStock": true },
+            { "name": "42.5", "inStock": false },
+            { "name": "43", "inStock": true },
+            { "name": "43.5", "inStock": false },
+            { "name": "44", "inStock": false }
+        ]
+    }
+}

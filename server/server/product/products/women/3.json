@@ -1,0 +1,46 @@
+{
+    "product": {
+        "id": 3,
+        "name": "Nike Air Max 270 G",
+        "href": "#",
+        "price": "£150",
+        "rating": 4.4,
+        "reviewCount": 3410,
+        "officialSource": "https://www.nike.com/t/air-max-270-g-golf-shoe-GVHWZK/CK6483-001",
+        "colors": [
+            {
+                "name": "blue",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0da2a6a4-98b2-483c-b144-867cd5d22964/air-max-270-g-golf-shoe-GVHWZK.png",
+                "imageAlt": "Nike Air Max 270 G Golf Shoe",
+                "class": "bg-blue-600",
+                "selectedClass": "ring-blue-900"
+            },
+            {
+                "name": "white",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a11b2cf9-ba4e-4b98-8021-b1527da06169/air-max-270-g-golf-shoe-GVHWZK.png",
+                "imageAlt": "Nike Air Max 270 G Golf Shoe",
+                "class": "bg-white",
+                "selectedClass": "ring-gray-200"
+            },
+            {
+                "name": "black",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/19748bd0-5a80-4583-9c3f-e29a24044a58/air-max-270-g-golf-shoe-GVHWZK.png",
+                "imageAlt": "Nike Air Max 270 G Golf Shoe",
+                "class": "bg-gray-900",
+                "selectedClass": "ring-gray-900"
+            }
+        ],
+        "sizes": [
+            { "name": "39.5", "inStock": true },
+            { "name": "40", "inStock": false },
+            { "name": "40.5", "inStock": false },
+            { "name": "41", "inStock": true },
+            { "name": "41.5", "inStock": true },
+            { "name": "42", "inStock": true },
+            { "name": "42.5", "inStock": false },
+            { "name": "43", "inStock": true },
+            { "name": "43.5", "inStock": false },
+            { "name": "44", "inStock": false }
+        ]
+    }
+}
