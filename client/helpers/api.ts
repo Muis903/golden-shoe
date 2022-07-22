@@ -1,6 +1,7 @@
 import axios from "axios";
 import { SERVER_LOCAL_URL } from "../server-config";
-import { IContactForm } from "../types/types";
+import { IContactForm, IManProduct, IWomanProduct } from "../types/types";
+import toast from "react-hot-toast";
 
 /**
  * Send POST request to the server to handle contact form information.
@@ -10,34 +11,77 @@ import { IContactForm } from "../types/types";
  *
  * @param _data Object that is passed into in the type of `IContactForm`.
  */
-export default async function PostContactForm(_data: IContactForm) {
+async function PostContactForm(_data: IContactForm) {
     await axios({
         method: "post",
         url: `${SERVER_LOCAL_URL}/send-contact-form/`,
         data: _data,
         headers: {
-            //    "X-CSRFToken": `${Cookies.get("csrftoken")}`,
             "Content-Type": "application/json",
         },
     })
-        .then((res) => console.log(res))
-        .catch((err) => console.log(err));
-
-    // Uncomment below and comment above if you would like to use `fetch`
-    // instead of `axios`.
-
-    //const response = await fetch(`${SERVER_LOCAL_URL}/send-email`, {
-    //    method: "POST", // *GET, POST, PUT, DELETE, etc.
-    //    mode: "cors", // no-cors, *cors, same-origin
-    //    cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
-    //    credentials: "same-origin", // include, *same-origin, omit
-    //    headers: {
-    //        "Content-Type": "application json",
-    //        // 'Content-Type': 'application/x-www-form-urlencoded',
-    //    },
-    //    redirect: "follow", // manual, *follow, error
-    //    referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-    //    body: JSON.stringify(_data), //JSON.stringify(data), // body data type must match "Content-Type" header
-    //});
-    //console.log(response.json());
+        .then((response) => {
+            // Handle success by pushing a notification to the screen.
+            if (response.data === 0) {
+                console.log(response);
+                // Show notification.
+                // For more toast API: https://react-hot-toast.com/docs/toast
+                toast.success(
+                    "Thank you for contacting us! We will reply as soon as possible!",
+                    {
+                        duration: 4500, // 4.5 seconds
+                        position: "top-right",
+                    }
+                );
+            } else if (response.data === 1) {
+                console.log(response);
+                // Handle failed API call by pushing a notification to the screen.
+                // TODO: It would a good practice to make an API call to AND and tell
+                // about the error so it can be resolved ASAP.
+                toast.error(
+                    "We are experiencing some technical issues now. You may call us instead."
+                );
+            }
+        })
+        .catch((error) => {
+            console.log(error);
+            // Handle error by pushing a notification to the screen.
+            // TODO: It would a good practice to make an API call to AND and tell
+            // about the error so it can be resolved ASAP.
+            toast.error(
+                "There is a technical error occured. You may call us instead."
+            );
+        });
 }
+
+async function getMenProducts(): Promise<IManProduct[]> {
+    const response: IManProduct[] = await axios
+        .get(`${SERVER_LOCAL_URL}/product/get-men-products/`)
+        .then((response) => {
+            return response.data;
+        })
+        .catch((error) => {
+            console.log(error);
+        });
+
+    console.log(response);
+
+    return response;
+}
+
+async function getWomenProducts(): Promise<IWomanProduct[]> {
+    const response: IWomanProduct[] = await axios
+        .get(`${SERVER_LOCAL_URL}/product/get-women-products/`)
+        .then((response) => {
+            return response.data;
+        })
+        .catch((error) => {
+            console.log(error);
+        });
+
+    console.log(response);
+
+    return response;
+}
+
+export { getMenProducts, getWomenProducts, PostContactForm };
