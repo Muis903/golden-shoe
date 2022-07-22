@@ -12,7 +12,7 @@ from .serializers import ContactFormSerializer
 
 
 @api_view(["GET"])
-def getData(request):
+def get_data(request):
     """Return all contact forms. NOTE: delete this function in production"""
 
     forms = ContactForm.objects.all()
@@ -25,7 +25,7 @@ def getData(request):
 @method_decorator(csrf_exempt, name="dispatch")
 def send_contact_form(request):
     """
-    Send e-mail to the show owner.
+    Send e-mail to the shop owner.
 
     Shop owner will be receiving the contact form that a user will be able to
     fill in.
