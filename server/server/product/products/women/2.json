@@ -1,46 +1,47 @@
 {
     "product": {
         "id": 2,
-        "name": "Jordan ADG 4",
-        "href": "#",
-        "price": "£185",
-        "rating": 4.1,
+        "name": "Nike Go FlyEase",
+        "href": "#women",
+        "price": "£120",
+        "rating": 5,
         "reviewCount": 1319,
-        "officialSource": "https://www.nike.com/t/jordan-adg-4-mens-golf-shoes-zw1ZGK/DM0103-105",
+        "officialSource": "https://www.nike.com/nl/t/go-flyease-easy-on-off-shoes-6nd2cc/CW5883-300",
         "colors": [
             {
-                "name": "gray",
-                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2be5599d-45a6-4b5a-8ab0-401c9e632e51/jordan-adg-4-mens-golf-shoes-zw1ZGK.png",
-                "imageAlt": "Jordan ADG 4 Men's Gold Shoes",
-                "class": "bg-gray-200",
-                "selectedClass": "ring-gray-400"
-            },
-            {
-                "name": "white",
-                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/65cd4a9e-183e-4c2f-a914-a2a47149286d/jordan-adg-4-mens-golf-shoes-zw1ZGK.png",
-                "imageAlt": "Jordan ADG 4 Men's Gold Shoes",
-                "class": "bg-white",
-                "selectedClass": "ring-gray-200"
+                "name": "green",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/86124974-dd3b-4c0f-9ac3-38888baf69d1/go-flyease-easy-on-off-shoes-6nd2cc.png",
+                "imageAlt": "Nike Go FlyEase Easy On/Off Shoes",
+                "class": "bg-lime-600",
+                "selectedClass": "ring-green-800"
             },
             {
                 "name": "black",
-                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/15acd464-81d6-48bf-9dc8-9e02338a356a/jordan-adg-4-mens-golf-shoes-zw1ZGK.png",
-                "imageAlt": "Jordan ADG 4 Men's Gold Shoes",
-                "class": "bg-gray-900",
-                "selectedClass": "ring-gray-900"
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/879db1d0-b43a-4ee1-89b0-814d66e83638/go-flyease-easy-on-off-shoes-6nd2cc.png",
+                "imageAlt": "Nike Go FlyEase Easy On/Off Shoes",
+                "class": "bg-gray-600",
+                "selectedClass": "ring-gray-200"
+            },
+            {
+                "name": "blue",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fb70b7e2-5594-4382-a529-7b342057e6a6/go-flyease-easy-on-off-shoes-6nd2cc.png",
+                "imageAlt": "Nike Go FlyEase Easy On/Off Shoes",
+                "class": "bg-blue-600",
+                "selectedClass": "ring-blue-400"
             }
         ],
         "sizes": [
-            { "name": "39.5", "inStock": true },
+            { "name": "36.5", "inStock": false },
+            { "name": "37", "inStock": true },
+            { "name": "37.5", "inStock": false },
+            { "name": "38", "inStock": false },
+            { "name": "38.5", "inStock": false },
+            { "name": "39", "inStock": false },
+            { "name": "39.5", "inStock": false },
             { "name": "40", "inStock": false },
             { "name": "40.5", "inStock": true },
-            { "name": "41", "inStock": false },
-            { "name": "41.5", "inStock": true },
-            { "name": "42", "inStock": true },
-            { "name": "42.5", "inStock": false },
-            { "name": "43", "inStock": true },
-            { "name": "43.5", "inStock": false },
-            { "name": "44", "inStock": false }
+            { "name": "41", "inStock": true },
+            { "name": "41.5", "inStock": true }
         ]
     }
 }

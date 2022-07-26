@@ -1,32 +1,47 @@
 {
     "product": {
         "id": 4,
-        "name": "Nike Air Zoom Pegasus 37",
-        "href": "#",
-        "price": "£89.97",
-        "rating": 4.6,
+        "name": "Nike Renew Serenity Run",
+        "href": "#women",
+        "price": "£80",
+        "rating": 3,
         "reviewCount": 5459,
-        "officialSource": "https://www.nike.com/t/air-zoom-pegasus-37-mens-road-running-shoes-KLvDcj/BQ9646-006",
+        "officialSource": "https://www.nike.com/t/renew-serenity-run-womens-road-running-shoes-FsLNf4/DB0522-600",
         "colors": [
             {
-                "name": "gray",
-                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1fbc9d9d-0a5a-419f-867c-1bb4c7179ab9/air-zoom-pegasus-37-mens-road-running-shoes-KLvDcj.png",
-                "imageAlt": "Nike Air Zoom Pegasus 37 Men's Road Running Shoes",
-                "class": "bg-gray-400",
-                "selectedClass": "ring-gray-600"
+                "name": "red",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1b2d1a3d-50d8-4593-b5f1-0645b877233f/renew-serenity-run-womens-road-running-shoes-FsLNf4.png",
+                "imageAlt": "Nike Renew Serenity Run Women's Road Running Shoes",
+                "class": "bg-red-600",
+                "selectedClass": "ring-red-400"
+            },
+            {
+                "name": "black",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/498be043-b447-42e4-95b5-4a5b3b63bfe0/renew-serenity-run-womens-road-running-shoes-FsLNf4.png",
+                "imageAlt": "Nike Renew Serenity Run Women's Road Running Shoes",
+                "class": "bg-gray-700",
+                "selectedClass": "ring-gray-400"
+            },
+            {
+                "name": "white",
+                "imageSrc": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b90cb964-b156-48f8-ac55-c89a993dc7c8/renew-serenity-run-womens-road-running-shoes-FsLNf4.png",
+                "imageAlt": "Nike Renew Serenity Run Women's Road Running Shoes",
+                "class": "bg-gray-300",
+                "selectedClass": "ring-gray-400"
             }
         ],
         "sizes": [
+            { "name": "36.5", "inStock": true },
+            { "name": "37", "inStock": true },
+            { "name": "37.5", "inStock": true },
+            { "name": "38", "inStock": true },
+            { "name": "38.5", "inStock": false },
+            { "name": "39", "inStock": false },
             { "name": "39.5", "inStock": true },
             { "name": "40", "inStock": true },
-            { "name": "40.5", "inStock": false },
+            { "name": "40.5", "inStock": true },
             { "name": "41", "inStock": true },
-            { "name": "41.5", "inStock": true },
-            { "name": "42", "inStock": true },
-            { "name": "42.5", "inStock": false },
-            { "name": "43", "inStock": true },
-            { "name": "43.5", "inStock": true },
-            { "name": "44", "inStock": false }
+            { "name": "41.5", "inStock": true }
         ]
     }
 }
