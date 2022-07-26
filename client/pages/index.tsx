@@ -163,7 +163,7 @@ const Home: NextPage = () => {
                                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                                     Find your perfect pair of shoes here in all
                                     shapes & sizes | Free shipping* & returns at
-                                    Golden Shoe Zomersale: save up to 70% on
+                                    Golden Shoe Summer sale: save up to 70% on
                                     even more looks from your favorite brands
                                 </p>
                                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">

@@ -13,6 +13,7 @@ from .serializers import ManProductSerializer, WomanProductSerializer
 @api_view(["GET"])
 @method_decorator(csrf_exempt, name="dispatch")
 def get_men_products(request):
+    """Return a list of all men products in JSON format"""
 
     forms = ManProduct.objects.all()
     serializer = ManProductSerializer(forms, many=True)
@@ -23,6 +24,7 @@ def get_men_products(request):
 @api_view(["GET"])
 @method_decorator(csrf_exempt, name="dispatch")
 def get_women_products(request):
+    """Return a list of all women products in JSON format"""
 
     forms = WomanProduct.objects.all()
     serializer = ManProductSerializer(forms, many=True)
@@ -33,6 +35,8 @@ def get_women_products(request):
 @api_view(["POST"])
 @method_decorator(csrf_exempt, name="dispatch")
 def create_man_product(request):
+    """Save man product as JSON to database"""
+
     # Save request data in serializer var.
     serializer = ManProductSerializer(data=request.data)
 
@@ -49,6 +53,8 @@ def create_man_product(request):
 @api_view(["POST"])
 @method_decorator(csrf_exempt, name="dispatch")
 def create_woman_product(request):
+    """Save woman product as JSON to database"""
+
     # Save request data in serializer var.
     serializer = WomanProductSerializer(data=request.data)
 

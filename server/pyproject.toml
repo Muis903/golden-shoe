@@ -5,25 +5,25 @@
 [tool.poetry]
 name = "backend"
 version = "0.1.0"
-description = "Backend implementation for Golden Shoe webshop"
-authors = ["Mikhail Ivanovskii"]
+description = "Back end implementation for Golden Shoe webshop"
+authors = ["Mikhail Ivanovskii https://github.com/Muis903"]
 
 #
 # DEPENDECIES SETTINGS
 #
 
 [tool.poetry.dependencies]
-python = "^3.10.5"
-Django = "^4.0.6"
-python-dotenv = "^0.20.0"
-djangorestframework = "^3.13.1"
-django-cors-headers = "^3.13.0"
+python = "^3.10.5" # Python
+Django = "^4.0.6" # Django
+python-dotenv = "^0.20.0" # Dependency to load .env file
+djangorestframework = "^3.13.1" # REST framework to handle API
+django-cors-headers = "^3.13.0" # To handle headers with cookies that are locating in an API request
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
-black = "^22.6.0"
+pytest = "^5.2" # Python library for writing test scripts
+black = "^22.6.0" # Python linter
 mypy = "^0.961"
-pyright = "^1.1.261"
+pyright = "^1.1.261" # another Python linter
 
 #
 # BUILD SETTINGS
