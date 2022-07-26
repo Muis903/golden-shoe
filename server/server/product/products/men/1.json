@@ -2,9 +2,9 @@
     "product": {
         "id": 1,
         "name": "Nike Jordan Stay Loyal",
-        "href": "#",
+        "href": "#men",
         "price": "£110",
-        "rating": 4.2,
+        "rating": 3,
         "reviewCount": 1201,
         "officialSource": "https://www.nike.com/t/jordan-stay-loyal-shoes-tdsMgH/DB2884-106",
         "colors": [

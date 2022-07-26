@@ -2,9 +2,9 @@
     "product": {
         "id": 3,
         "name": "Nike Air Max 270 G",
-        "href": "#",
+        "href": "#men",
         "price": "£150",
-        "rating": 4.4,
+        "rating": 5,
         "reviewCount": 3410,
         "officialSource": "https://www.nike.com/t/air-max-270-g-golf-shoe-GVHWZK/CK6483-001",
         "colors": [
