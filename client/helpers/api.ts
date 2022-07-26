@@ -1,6 +1,6 @@
 import axios from "axios";
 import { SERVER_LOCAL_URL } from "../server-config";
-import { IContactForm, IManProduct, IWomanProduct } from "../types/types";
+import { IContactForm, IProduct } from "../types/types";
 import toast from "react-hot-toast";
 
 /**
@@ -11,10 +11,10 @@ import toast from "react-hot-toast";
  *
  * @param _data Object that is passed into in the type of `IContactForm`.
  */
-async function PostContactForm(_data: IContactForm) {
+export default async function PostContactForm(_data: IContactForm) {
     await axios({
         method: "post",
-        url: `${SERVER_LOCAL_URL}/send-contact-form/`,
+        url: `${SERVER_LOCAL_URL}/smtp/send-contact-form/`,
         data: _data,
         headers: {
             "Content-Type": "application/json",
@@ -54,8 +54,8 @@ async function PostContactForm(_data: IContactForm) {
         });
 }
 
-async function getMenProducts(): Promise<IManProduct[]> {
-    const response: IManProduct[] = await axios
+async function getMenProducts(): Promise<IProduct[]> {
+    const response: IProduct[] = await axios
         .get(`${SERVER_LOCAL_URL}/product/get-men-products/`)
         .then((response) => {
             return response.data;
@@ -69,8 +69,8 @@ async function getMenProducts(): Promise<IManProduct[]> {
     return response;
 }
 
-async function getWomenProducts(): Promise<IWomanProduct[]> {
-    const response: IWomanProduct[] = await axios
+async function getWomenProducts(): Promise<IProduct[]> {
+    const response: IProduct[] = await axios
         .get(`${SERVER_LOCAL_URL}/product/get-women-products/`)
         .then((response) => {
             return response.data;
